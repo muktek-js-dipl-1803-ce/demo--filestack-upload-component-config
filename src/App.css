@@ -1,0 +1,66 @@
+*{
+  box-sizing: border-box;
+}
+.App {
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+}
+label {
+  display: block;
+  margin-top: 2rem;
+  margin-bottom: .5rem;
+  font-weight: 700;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+input {
+  display: block;
+  width: 100%;
+  padding: .75rem;
+}
+
+.form-col{
+  width: 66%;
+  padding: .5rem;
+}
+
+.img-col{
+  padding-top
+  width: 33%;
+  padding: 1.5rem;
+  padding-top: 3rem;
+}
+
+span.file-btn-wrapper {
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+  padding: .5rem 2rem;
+  border: 1px solid #333;
+
+  &:hover{background: lightyellow;}
+}
+
+
+.add-file-img-btn{
+  position: absolute;
+
+  opacity: 0;
+   top: 0;
+   left: 0;
+   width: 100%;
+  height: 100%;
+  z-index: 2
+}
+
+input[type="submit"]{
+  background: seagreen;
+  padding: 1rem;
+  color: #fff;
+  margin: 1rem;
+}
