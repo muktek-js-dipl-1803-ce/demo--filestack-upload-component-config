@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import './App.css';
 import request from 'superagent'
-import {uploadFile} from './services/svc-filestack.js'
+import {uploadFile} from '../services/svc-filestack.js'
 
-class App extends Component {
+class FileUploader extends Component {
   state = {
     fileImg : 'https://via.placeholder.com/250x150',
     theFile: null
@@ -71,11 +71,11 @@ class App extends Component {
           <h3>Image Display</h3>
           <img src={this.state.fileImg}/>
         </div>
-          
+
 
       </div>
     );
   }
 }
 
-export default App;
+export default FileUploader;
