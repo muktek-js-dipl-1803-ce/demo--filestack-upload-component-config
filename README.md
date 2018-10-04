@@ -6,7 +6,7 @@
   npm install --save filestack-js
   ```
   
-2. Configure your filestack account : https://www.filestack.com/ and obtain api key
+2. Register + Configure your filestack account : https://www.filestack.com/ and obtain api key
 
 3. Configure + export the filestack service in your project 
   - https://github.com/muktek-js-dipl-1803-ce/demo--filestack-upload-component-config/blob/master/src/services/filestackService.js
