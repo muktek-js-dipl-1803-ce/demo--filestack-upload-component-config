@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import request from 'superagent'
-import {uploadFile} from '../services/svc-filestack.js'
+import {uploadFile} from '../services/filestackService.js'
 
 class FileUploader extends Component {
   state = {
